@@ -1,6 +1,10 @@
-## Usage
+# Preview
 
-### React Component
+<img src="./presentation.gif" />
+
+# Usage
+
+## React Component
 
 ```jsx
 import {HelpModal,DEVICE_TYPE} from "simple-help-modal";
@@ -19,7 +23,7 @@ import {HelpModal,DEVICE_TYPE} from "simple-help-modal";
 </HelpModal>
 ```
 
-### Redux usage
+## Redux usage
 
 `Configure Store`
 
