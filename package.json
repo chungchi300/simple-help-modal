@@ -1,0 +1,45 @@
+{
+  "name": "simple-help-modal",
+  "homepage": "https://github.com/chungchi300/simple-file-upload/blob/master/README.md",
+  "version": "0.7.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/lib/index.js",
+  "typings": "dist/lib/index.d.ts",
+  "dependencies": {
+    "react-modal": "^3.5.1",
+    "styled-components": "^2.1.2"
+  },
+  "contributors": [
+    "Jeff Chung <chungchi300@hotmail.com>(http://jeff-chung.com)",
+    "Shavon Ling <lingsuifong91@gmail.com>"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "build-lib": "rm -rf dist&&npx tsc -d --outDir dist",
+    "eject": "react-scripts-ts eject",
+    "format": "npx prettier  --write src/**/*.ts src/**/*.tsx",
+    "compileSvgs": "$(npm bin)/svgr --no-semi --icon --replace-attr-value -d src/lib/asset src/lib/asset",
+    "prepublish": "npm run format&&CI=true npm run test && npm run build-lib"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^2.0.0",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.6",
+    "@types/react": "^16.3.12",
+    "@types/react-dom": "^16.0.5",
+    "prettier": "1.14.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts-ts": "2.15.1",
+    "svgr": "^1.7.0",
+    "typescript": "^2.8.3"
+  }
+}
