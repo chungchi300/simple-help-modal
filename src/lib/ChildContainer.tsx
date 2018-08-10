@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import * as React from "react";
-export const DEVICE_TYPE = {
-  PHONE: "PHONE",
-  DESKTOP: "DESKTOP"
-};
+import { DEVICE_TYPE } from "./HelpModal";
+
 interface Props {
   /* This prop is optional, since TypeScript won't know that it's passed by the wrapper */
   className?: string;

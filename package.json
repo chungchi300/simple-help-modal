@@ -1,7 +1,7 @@
 {
   "name": "simple-help-modal",
   "homepage": "https://github.com/chungchi300/simple-file-upload/blob/master/README.md",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "files": [
     "dist"
   ],
@@ -26,7 +26,7 @@
     "build-lib": "rm -rf dist&&npx tsc -d --outDir dist",
     "eject": "react-scripts-ts eject",
     "format": "npx prettier  --write src/**/*.ts src/**/*.tsx",
-    "compileSvgs": "$(npm bin)/svgr --no-semi --icon --replace-attr-value -d src/lib/asset src/lib/asset",
+    "compileSvgs": "$(npm bin)/svgr --ext tsx --no-semi --icon --replace-attr-value -d src/lib/asset src/lib/asset",
     "prepublish": "npm run format&&CI=true npm run test && npm run build-lib"
   },
   "devDependencies": {
