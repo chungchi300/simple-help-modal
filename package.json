@@ -1,7 +1,7 @@
 {
   "name": "simple-help-modal",
   "homepage": "https://github.com/chungchi300/simple-file-upload/blob/master/README.md",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "files": [
     "dist"
   ],
@@ -9,7 +9,7 @@
   "typings": "dist/lib/index.d.ts",
   "dependencies": {
     "react-modal": "^3.5.1",
-    "styled-components": "^2.1.2"
+    "styled-components": "^3.3.3"
   },
   "contributors": [
     "Jeff Chung <chungchi300@hotmail.com>(http://jeff-chung.com)",
