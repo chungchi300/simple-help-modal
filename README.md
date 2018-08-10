@@ -3,7 +3,7 @@
 ### React Component
 
 ```jsx
-`import {HelpModal,DEVICE_TYPE} from "simple-help-modal";`
+import {HelpModal,DEVICE_TYPE} from "simple-help-modal";
 
 <HelpModal
           onRequestClose={() => {
